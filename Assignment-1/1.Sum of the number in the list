@@ -1,0 +1,18 @@
+class ForTest {
+    int a[] = {10, 20, 30, 40, 50, 70};
+    int sum = 0;
+    void cal() {
+        for (int i : a) {
+            sum = sum + i;
+        }
+        System.out.println("sum = " + sum);
+    }
+}
+public class Test {
+    public static void main(String arg[]) {
+        ForTest f = new ForTest();
+        f.cal();
+    }
+}
+# output:
+220
