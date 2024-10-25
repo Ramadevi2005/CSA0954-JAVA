@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class PowerCalculator {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a floating-point number: ");
+        double number = scanner.nextDouble();
+
+        double square = number * number;
+        double cube = number * number * number;
+        double fourthPower = number * number * number * number;
+
+        System.out.println("Square: " + square);
+        System.out.println("Cube: " + cube);
+        System.out.println("Fourth Power: " + fourthPower);
+    }
+}
+# output:
+Enter a floating-point number: 2.5
+Square: 6.25
+Cube: 15.625
+Fourth Power: 39.0625
