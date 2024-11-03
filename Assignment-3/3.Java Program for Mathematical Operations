@@ -1,0 +1,11 @@
+public class MathOperations {
+    public static void main(String[] args) {
+        System.out.println(Math.pow(5, 6)); 
+        System.out.println(Math.sqrt(45));  
+        System.out.println(Math.log(1));      
+    }
+}
+# Output:
+15625.0
+6.708203932499369
+0.0
