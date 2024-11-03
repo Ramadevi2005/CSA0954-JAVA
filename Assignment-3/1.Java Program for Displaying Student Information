@@ -1,0 +1,35 @@
+import java.util.Scanner;
+public class StudentInfo {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Register Number: ");
+        String regNo = sc.nextLine();
+        System.out.print("Name: ");
+        String name = sc.nextLine();
+        System.out.print("Course Code: ");
+        String courseCode = sc.nextLine();
+        System.out.print("Course Name: ");
+        String courseName = sc.nextLine();
+        System.out.print("Test1 Mark: ");
+        int test1Mark = sc.nextInt();
+        System.out.println("\nStudent Information:");
+        System.out.println("Register Number: " + regNo);
+        System.out.println("Name: " + name);
+        System.out.println("Course Code: " + courseCode);
+        System.out.println("Course Name: " + courseName);
+        System.out.println("Test1 Mark: " + test1Mark);        
+        sc.close();
+    }
+}
+# Output:
+Enter Register Number: 12345
+Enter Name: John Doe
+Enter Course Code: CS101
+Enter Course Name: Computer Science
+Enter Test1 Mark: 85
+
+Register Number: 12345
+Name: John Doe
+Course Code: CS101
+Course Name: Computer Science
+Test1 Mark: 85
